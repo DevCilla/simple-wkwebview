@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AA3AAEA42F39D9D0001FE409 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA3AAEA32F39D9CB001FE409 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AAFAB0A42F237F3900B78EA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA3AAEA32F39D9CB001FE409 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AAFAB0962F237F3800B78EA6 /* WebViewUserAgentTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewUserAgentTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFAB0A32F237F3900B78EA6 /* WebViewUserAgentTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewUserAgentTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFAB0AD2F237F3900B78EA6 /* WebViewUserAgentTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewUserAgentTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		AAFAB08D2F237F3800B78EA6 = {
 			isa = PBXGroup;
 			children = (
+				AA3AAEA32F39D9CB001FE409 /* README.md */,
 				AAFAB0982F237F3800B78EA6 /* WebViewUserAgentTest */,
 				AAFAB0A62F237F3900B78EA6 /* WebViewUserAgentTestTests */,
 				AAFAB0B02F237F3900B78EA6 /* WebViewUserAgentTestUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3AAEA42F39D9D0001FE409 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
